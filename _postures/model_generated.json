@@ -1,0 +1,1358 @@
+{
+  "base": {
+    "parent": null,
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "body_lower": {
+    "parent": "base",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 13.2,
+      "z": 0.0
+    }
+  },
+  "back_panel": {
+    "parent": "body_lower",
+    "length": 0.5,
+    "x": -2.792526803190927,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": -3.0
+    }
+  },
+  "spine": {
+    "parent": "body_lower",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "body_upper": {
+    "parent": "spine",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 2.0,
+      "z": 0.0
+    }
+  },
+  "shoulder_base_l": {
+    "parent": "body_upper",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": -1.5707963267948966,
+    "location": {
+      "x": 3.8,
+      "y": 5.4,
+      "z": -1.2
+    }
+  },
+  "shoulder_bellows_1_l": {
+    "parent": "shoulder_base_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": -0.5235987755982988,
+    "location": {
+      "x": 0.0,
+      "y": 0.8,
+      "z": 0.0
+    }
+  },
+  "shoulder_bellows_2_l": {
+    "parent": "shoulder_bellows_1_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": -0.5235987755982988,
+    "location": {
+      "x": 0.0,
+      "y": 1.2,
+      "z": 0.0
+    }
+  },
+  "shoulder_bellows_3_l": {
+    "parent": "shoulder_bellows_2_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": -0.5235987755982988,
+    "location": {
+      "x": 0.0,
+      "y": 1.2,
+      "z": 0.0
+    }
+  },
+  "upper_arm_base_l": {
+    "parent": "shoulder_bellows_3_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 1.5707963267948966,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "upper_arm_l": {
+    "parent": "upper_arm_base_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.5,
+      "z": 0.0
+    }
+  },
+  "elbow_l": {
+    "parent": "upper_arm_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": -1.3089969389957472,
+    "location": {
+      "x": -0.65,
+      "y": 2.5,
+      "z": 0.0
+    }
+  },
+  "forearm_adapter_l": {
+    "parent": "elbow_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 1.5707963267948966,
+    "location": {
+      "x": 0.0,
+      "y": 1.2,
+      "z": 0.0
+    }
+  },
+  "forearm_root_l": {
+    "parent": "forearm_adapter_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 1.0471975511965976,
+    "z": 0.0,
+    "location": {
+      "x": 0.6,
+      "y": 1.2,
+      "z": 0.0
+    }
+  },
+  "forearm_attachment_l": {
+    "parent": "forearm_root_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": -1.5707963267948966,
+    "location": {
+      "x": 0.7,
+      "y": 2.0,
+      "z": 0.0
+    }
+  },
+  "forearm_end_l": {
+    "parent": "forearm_root_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.5,
+      "z": 0.0
+    }
+  },
+  "wrist_l": {
+    "parent": "forearm_end_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 3.5,
+      "z": 0.0
+    }
+  },
+  "palm_l": {
+    "parent": "wrist_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": -1.5707963267948966,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.5,
+      "z": 0.0
+    }
+  },
+  "thumb_proximal_phalanx_l": {
+    "parent": "palm_l",
+    "length": 0.05,
+    "x": -0.5235987755982988,
+    "y": 3.141592653589793,
+    "z": 0.0,
+    "location": {
+      "x": -0.7,
+      "y": 0.7,
+      "z": 0.5
+    }
+  },
+  "thumb_distal_phalanx_l": {
+    "parent": "thumb_proximal_phalanx_l",
+    "length": 0.05,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.9,
+      "z": 0.0
+    }
+  },
+  "index_f_proximal_phalanx_l": {
+    "parent": "palm_l",
+    "length": 0.05,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": -0.6,
+      "y": 2.2,
+      "z": -0.45
+    }
+  },
+  "index_f_middle_phalanx_l": {
+    "parent": "index_f_proximal_phalanx_l",
+    "length": 0.05,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.7,
+      "z": 0.0
+    }
+  },
+  "index_f_distal_phalanx_l": {
+    "parent": "index_f_middle_phalanx_l",
+    "length": 0.05,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.6,
+      "z": 0.0
+    }
+  },
+  "middle_f_proximal_phalanx_l": {
+    "parent": "palm_l",
+    "length": 0.05,
+    "x": 1.0471975511965976,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": -0.2,
+      "y": 2.3,
+      "z": -0.45
+    }
+  },
+  "middle_f_middle_phalanx_l": {
+    "parent": "middle_f_proximal_phalanx_l",
+    "length": 0.05,
+    "x": 1.0471975511965976,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.7,
+      "z": 0.0
+    }
+  },
+  "middle_f_distal_phalanx_l": {
+    "parent": "middle_f_middle_phalanx_l",
+    "length": 0.05,
+    "x": 0.7853981633974483,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.6,
+      "z": 0.0
+    }
+  },
+  "ring_f_proximal_phalanx_l": {
+    "parent": "palm_l",
+    "length": 0.05,
+    "x": 1.0471975511965976,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.2,
+      "y": 2.3,
+      "z": -0.45
+    }
+  },
+  "ring_f_middle_phalanx_l": {
+    "parent": "ring_f_proximal_phalanx_l",
+    "length": 0.05,
+    "x": 1.0471975511965976,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.7,
+      "z": 0.0
+    }
+  },
+  "ring_f_distal_phalanx_l": {
+    "parent": "ring_f_middle_phalanx_l",
+    "length": 0.05,
+    "x": 0.7853981633974483,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.6,
+      "z": 0.0
+    }
+  },
+  "little_f_proximal_phalanx_l": {
+    "parent": "palm_l",
+    "length": 0.05,
+    "x": 1.0471975511965976,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.6,
+      "y": 2.2,
+      "z": -0.45
+    }
+  },
+  "little_f_middle_phalanx_l": {
+    "parent": "little_f_proximal_phalanx_l",
+    "length": 0.05,
+    "x": 1.0471975511965976,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.7,
+      "z": 0.0
+    }
+  },
+  "little_f_distal_phalanx_l": {
+    "parent": "little_f_middle_phalanx_l",
+    "length": 0.05,
+    "x": 0.7853981633974483,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.6,
+      "z": 0.0
+    }
+  },
+  "weapon_l": {
+    "parent": "palm_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.8,
+      "z": 0.3
+    }
+  },
+  "shoulder_base_r": {
+    "parent": "body_upper",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 1.5707963267948966,
+    "location": {
+      "x": -3.8,
+      "y": 5.4,
+      "z": -1.2
+    }
+  },
+  "shoulder_bellows_1_r": {
+    "parent": "shoulder_base_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.5235987755982988,
+    "location": {
+      "x": 0.0,
+      "y": 0.8,
+      "z": 0.0
+    }
+  },
+  "shoulder_bellows_2_r": {
+    "parent": "shoulder_bellows_1_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.5235987755982988,
+    "location": {
+      "x": 0.0,
+      "y": 1.2,
+      "z": 0.0
+    }
+  },
+  "shoulder_bellows_3_r": {
+    "parent": "shoulder_bellows_2_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.5235987755982988,
+    "location": {
+      "x": 0.0,
+      "y": 1.2,
+      "z": 0.0
+    }
+  },
+  "upper_arm_base_r": {
+    "parent": "shoulder_bellows_3_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": -1.5707963267948966,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "upper_arm_r": {
+    "parent": "upper_arm_base_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.5,
+      "z": 0.0
+    }
+  },
+  "elbow_r": {
+    "parent": "upper_arm_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 1.3089969389957472,
+    "location": {
+      "x": 0.65,
+      "y": 2.5,
+      "z": 0.0
+    }
+  },
+  "forearm_adapter_r": {
+    "parent": "elbow_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": -1.5707963267948966,
+    "location": {
+      "x": 0.0,
+      "y": 1.2,
+      "z": 0.0
+    }
+  },
+  "forearm_root_r": {
+    "parent": "forearm_adapter_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": -1.0471975511965976,
+    "z": 0.0,
+    "location": {
+      "x": -0.6,
+      "y": 1.2,
+      "z": 0.0
+    }
+  },
+  "forearm_attachment_r": {
+    "parent": "forearm_root_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 1.5707963267948966,
+    "location": {
+      "x": -0.7,
+      "y": 2.0,
+      "z": 0.0
+    }
+  },
+  "forearm_end_r": {
+    "parent": "forearm_root_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.5,
+      "z": 0.0
+    }
+  },
+  "wrist_r": {
+    "parent": "forearm_end_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 3.5,
+      "z": 0.0
+    }
+  },
+  "palm_r": {
+    "parent": "wrist_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 1.5707963267948966,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.5,
+      "z": 0.0
+    }
+  },
+  "thumb_proximal_phalanx_r": {
+    "parent": "palm_r",
+    "length": 0.05,
+    "x": -0.5235987755982988,
+    "y": 3.141592653589793,
+    "z": 0.0,
+    "location": {
+      "x": 0.7,
+      "y": 0.7,
+      "z": 0.5
+    }
+  },
+  "thumb_distal_phalanx_r": {
+    "parent": "thumb_proximal_phalanx_r",
+    "length": 0.05,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.9,
+      "z": 0.0
+    }
+  },
+  "index_f_proximal_phalanx_r": {
+    "parent": "palm_r",
+    "length": 0.05,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.6,
+      "y": 2.2,
+      "z": -0.45
+    }
+  },
+  "index_f_middle_phalanx_r": {
+    "parent": "index_f_proximal_phalanx_r",
+    "length": 0.05,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.7,
+      "z": 0.0
+    }
+  },
+  "index_f_distal_phalanx_r": {
+    "parent": "index_f_middle_phalanx_r",
+    "length": 0.05,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.6,
+      "z": 0.0
+    }
+  },
+  "middle_f_proximal_phalanx_r": {
+    "parent": "palm_r",
+    "length": 0.05,
+    "x": 1.0471975511965976,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.2,
+      "y": 2.3,
+      "z": -0.45
+    }
+  },
+  "middle_f_middle_phalanx_r": {
+    "parent": "middle_f_proximal_phalanx_r",
+    "length": 0.05,
+    "x": 1.0471975511965976,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.7,
+      "z": 0.0
+    }
+  },
+  "middle_f_distal_phalanx_r": {
+    "parent": "middle_f_middle_phalanx_r",
+    "length": 0.05,
+    "x": 0.7853981633974483,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.6,
+      "z": 0.0
+    }
+  },
+  "ring_f_proximal_phalanx_r": {
+    "parent": "palm_r",
+    "length": 0.05,
+    "x": 1.0471975511965976,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": -0.2,
+      "y": 2.3,
+      "z": -0.45
+    }
+  },
+  "ring_f_middle_phalanx_r": {
+    "parent": "ring_f_proximal_phalanx_r",
+    "length": 0.05,
+    "x": 1.0471975511965976,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.7,
+      "z": 0.0
+    }
+  },
+  "ring_f_distal_phalanx_r": {
+    "parent": "ring_f_middle_phalanx_r",
+    "length": 0.05,
+    "x": 0.7853981633974483,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.6,
+      "z": 0.0
+    }
+  },
+  "little_f_proximal_phalanx_r": {
+    "parent": "palm_r",
+    "length": 0.05,
+    "x": 1.0471975511965976,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": -0.6,
+      "y": 2.2,
+      "z": -0.45
+    }
+  },
+  "little_f_middle_phalanx_r": {
+    "parent": "little_f_proximal_phalanx_r",
+    "length": 0.05,
+    "x": 1.0471975511965976,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.7,
+      "z": 0.0
+    }
+  },
+  "little_f_distal_phalanx_r": {
+    "parent": "little_f_middle_phalanx_r",
+    "length": 0.05,
+    "x": 0.7853981633974483,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.6,
+      "z": 0.0
+    }
+  },
+  "weapon_r": {
+    "parent": "palm_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.8,
+      "z": 0.3
+    }
+  },
+  "neck_joint": {
+    "parent": "body_upper",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 4.2,
+      "z": 1.5
+    }
+  },
+  "neck": {
+    "parent": "neck_joint",
+    "length": 0.5,
+    "x": -1.5707963267948966,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "head_adapter": {
+    "parent": "neck",
+    "length": 0.5,
+    "x": 1.5707963267948966,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.6,
+      "z": 0.0
+    }
+  },
+  "head_base": {
+    "parent": "head_adapter",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.5,
+      "z": 0.0
+    }
+  },
+  "head": {
+    "parent": "head_base",
+    "length": 0.5,
+    "x": 1.5707963267948966,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "head_armor_adapter_l": {
+    "parent": "head",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": -0.7853981633974483,
+    "location": {
+      "x": 0.0,
+      "y": 0.6,
+      "z": -0.6
+    }
+  },
+  "head_armor_l": {
+    "parent": "head_armor_adapter_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": -0.7853981633974483,
+    "location": {
+      "x": 0.0,
+      "y": 1.4,
+      "z": 0.0
+    }
+  },
+  "head_armor_adapter_r": {
+    "parent": "head",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.7853981633974483,
+    "location": {
+      "x": 0.0,
+      "y": 0.6,
+      "z": -0.6
+    }
+  },
+  "head_armor_r": {
+    "parent": "head_armor_adapter_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.7853981633974483,
+    "location": {
+      "x": 0.0,
+      "y": 1.4,
+      "z": 0.0
+    }
+  },
+  "eye_adapter": {
+    "parent": "head",
+    "length": 0.5,
+    "x": 1.5707963267948966,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 2.7,
+      "z": 0.5
+    }
+  },
+  "eye_base": {
+    "parent": "eye_adapter",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.3,
+      "z": 0.0
+    }
+  },
+  "eye": {
+    "parent": "eye_base",
+    "length": 0.5,
+    "x": -1.5707963267948966,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.6,
+      "z": 0.0
+    }
+  },
+  "leg_base": {
+    "parent": "body_lower",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 3.141592653589793,
+    "z": 3.141592653589793,
+    "location": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -1.3
+    }
+  },
+  "leg_rotation_base_l": {
+    "parent": "leg_base",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 1.6,
+      "y": 0.0,
+      "z": -0.2
+    }
+  },
+  "leg_extension_base_l": {
+    "parent": "leg_rotation_base_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.8,
+      "z": 0.5
+    }
+  },
+  "femur_root_l": {
+    "parent": "leg_extension_base_l",
+    "length": 0.5,
+    "x": -1.5707963267948966,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.1,
+      "z": 0.0
+    }
+  },
+  "femur_end_l": {
+    "parent": "femur_root_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 2.0,
+      "z": 0.0
+    }
+  },
+  "shin_l": {
+    "parent": "femur_end_l",
+    "length": 0.5,
+    "x": 2.0943951023931953,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.2,
+      "z": 0.0
+    }
+  },
+  "metatarsal_l": {
+    "parent": "shin_l",
+    "length": 0.5,
+    "x": -0.7853981633974483,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 5.5,
+      "z": 0.0
+    }
+  },
+  "foot_adapter_l": {
+    "parent": "metatarsal_l",
+    "length": 0.5,
+    "x": 0.2617993877991494,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 4.5,
+      "z": 0.0
+    }
+  },
+  "foot_l": {
+    "parent": "foot_adapter_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "foot_front_l": {
+    "parent": "foot_l",
+    "length": 0.5,
+    "x": -1.5707963267948966,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.8,
+      "z": -1.4
+    }
+  },
+  "foot_back_l": {
+    "parent": "foot_l",
+    "length": 0.5,
+    "x": 1.5707963267948966,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.8,
+      "z": 1.4
+    }
+  },
+  "leg_rotation_base_r": {
+    "parent": "leg_base",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": -1.6,
+      "y": 0.0,
+      "z": -0.2
+    }
+  },
+  "leg_extension_base_r": {
+    "parent": "leg_rotation_base_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.8,
+      "z": 0.5
+    }
+  },
+  "femur_root_r": {
+    "parent": "leg_extension_base_r",
+    "length": 0.5,
+    "x": -1.5707963267948966,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.1,
+      "z": 0.0
+    }
+  },
+  "femur_end_r": {
+    "parent": "femur_root_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 2.0,
+      "z": 0.0
+    }
+  },
+  "shin_r": {
+    "parent": "femur_end_r",
+    "length": 0.5,
+    "x": 2.0943951023931953,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.2,
+      "z": 0.0
+    }
+  },
+  "metatarsal_r": {
+    "parent": "shin_r",
+    "length": 0.5,
+    "x": -0.7853981633974483,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 5.5,
+      "z": 0.0
+    }
+  },
+  "foot_adapter_r": {
+    "parent": "metatarsal_r",
+    "length": 0.5,
+    "x": 0.2617993877991494,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 4.5,
+      "z": 0.0
+    }
+  },
+  "foot_r": {
+    "parent": "foot_adapter_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "foot_front_r": {
+    "parent": "foot_r",
+    "length": 0.5,
+    "x": -1.5707963267948966,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.8,
+      "z": -1.4
+    }
+  },
+  "foot_back_r": {
+    "parent": "foot_r",
+    "length": 0.5,
+    "x": 1.5707963267948966,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.8,
+      "z": 1.4
+    }
+  },
+  "dummy_hip": {
+    "parent": "base",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 12.0,
+      "z": -1.0
+    }
+  },
+  "dummy_spine": {
+    "parent": "dummy_hip",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "dummy_chest": {
+    "parent": "dummy_spine",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 2.0,
+      "z": 0.0
+    }
+  },
+  "dummy_neck": {
+    "parent": "dummy_chest",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "dummy_head": {
+    "parent": "dummy_neck",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "dummy_shoulder_l": {
+    "parent": "dummy_chest",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": -1.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "dummy_upper_arm_l": {
+    "parent": "dummy_shoulder_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "dummy_lower_arm_l": {
+    "parent": "dummy_upper_arm_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "dummy_hand_l": {
+    "parent": "dummy_lower_arm_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "dummy_shoulder_r": {
+    "parent": "dummy_chest",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "dummy_upper_arm_r": {
+    "parent": "dummy_shoulder_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "dummy_lower_arm_r": {
+    "parent": "dummy_upper_arm_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "dummy_hand_r": {
+    "parent": "dummy_lower_arm_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "dummy_upper_leg_l": {
+    "parent": "dummy_hip",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": -1.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "dummy_lower_leg_l": {
+    "parent": "dummy_upper_leg_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "dummy_foot_l": {
+    "parent": "dummy_lower_leg_l",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "dummy_upper_leg_r": {
+    "parent": "dummy_hip",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "dummy_lower_leg_r": {
+    "parent": "dummy_upper_leg_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "dummy_foot_r": {
+    "parent": "dummy_lower_leg_r",
+    "length": 0.5,
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  }
+}
