@@ -1,7 +1,7 @@
 オリジナルのロボデザイン(2024/05)
 ====
 
-<img src="" width=240/>
+<img src="https://github.com/MurataUni/modeling_original_robo_202405/assets/105286133/003ba931-154f-4dd9-bfcc-b62b73668d7a" width=240/>
 
 
 ## Description
