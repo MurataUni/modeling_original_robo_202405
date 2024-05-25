@@ -391,7 +391,7 @@ class Const:
 
 def main():
     generate_posture(os.path.join(PathInfo.dir_posture_json, PathInfo.file_posture_model_generated))
-    fnames = [PathInfo.file_posture_model_default, PathInfo.file_posture_model_posed]
+    fnames = [PathInfo.file_posture_model_generated, PathInfo.file_posture_model_posed]
     for fname in fnames:
         apply_bone_relationship(os.path.join(PathInfo.dir_posture_json,fname))
 
