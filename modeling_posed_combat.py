@@ -12,8 +12,8 @@ from spec_model import Const
 
 def main():
     path = os.path.dirname(os.path.abspath(__file__))
-    posture = os.path.join(PathInfo.dir_posture_json, PathInfo.file_posture_model_generated)
-    fname = path.split(os.sep)[-1] + '_default.stl'
+    posture = os.path.join(PathInfo.dir_posture_json, PathInfo.file_posture_model_combat)
+    fname = path.split(os.sep)[-1] + '_combat.stl'
 
     sw = Shipwright(Dock())
 

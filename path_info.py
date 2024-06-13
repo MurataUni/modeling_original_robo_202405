@@ -11,9 +11,11 @@ class Const:
 
     folder_divided = 'divided'
 
+    dir_parts_print = os.sep.join([project_path, '_parts_03_print'])
     dir_parts_version_1 = os.sep.join([project_path, '_parts_02_modeling'])
     dir_parts_draft = os.sep.join([project_path, '_parts_01_draft'])
     dirs_parts_modeling = [ #リストの先頭から一致を探す挙動になるので順番注意
+        # dir_parts_print, # 印刷用のデータ出力時のみ
         dir_parts_version_1,
         dir_parts_draft,
     ]
@@ -25,6 +27,9 @@ class Const:
     
     file_posture_model_generated = 'model_generated.json'
     file_posture_model_posed = 'model_pose_standing.json'
+    file_posture_model_combat = 'model_pose_combat.json'
+    file_posture_disarmed_model_searching = 'model_disarmed_pose_searching.json'
+    file_posture_disarmed_model_defensive = 'model_disarmed_pose_defensive.json'
 
     dir_scaled_posture_json = os.sep.join([project_path, '_scaled', '_postures'])
     dir_scaled_anime_json = os.sep.join([project_path, '_scaled', '_postures', 'animation'])

@@ -2,9 +2,7 @@
 divided/
 _bkup/
 _scaled/
-print/slice
-print/split
-print/default_size
+print/
 partial_output/
 screenshot/
 fbx_export/
